@@ -1,16 +1,1 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const elfsightScript = document.createElement('script');
-    elfsightScript.src = 'https://static.elfsight.com/platform/platform.js';
-    elfsightScript.async = true;
-    elfsightScript.defer = true;
-    elfsightScript.onerror = function() {
-        console.error('Ошибка загрузки Elfsight Widget');
-    };
-    
-    document.body.appendChild(elfsightScript);
-});
-
-document.addEventListener('DOMContentLoaded', function() {
-    const elfsightLinks = document.querySelectorAll('a[href*="elfsight.com/google-reviews-widget/"]');
-    elfsightLinks.forEach(link => link.remove());
-});
+document.addEventListener("DOMContentLoaded",(function(){const e=document.createElement("script");e.src="https://static.elfsight.com/platform/platform.js",e.async=!0,e.defer=!0,e.onerror=function(){},document.body.appendChild(e)})),document.addEventListener("DOMContentLoaded",(function(){document.querySelectorAll('a[href*="elfsight.com/google-reviews-widget/"]').forEach((e=>e.remove()))}));
