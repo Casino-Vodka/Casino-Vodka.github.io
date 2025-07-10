@@ -1,2 +1,5 @@
 User-agent: *
-Sitemap: https://www.vodkazino.com/sitemap.xml
+Allow: /
+Allow: www.vodkazino.com
+Sitemap: www.vodkazino.com/sitemap.xml
+Host: www.vodkazino.com
